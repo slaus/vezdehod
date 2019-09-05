@@ -1,0 +1,40 @@
+/*!
+ * Header content
+ */
+.header {
+  background: $black;
+
+  &-slider {
+    min-height: 510px;
+    background: url("../images/img09.jpg") no-repeat center center;
+
+    &-title {
+      font-size: 48px;
+    }
+
+    &-description {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+
+    & .btn {
+      font-size: 24px;
+    }
+  }
+
+  &-block {
+    min-height: 210px;
+    width: 100%;
+  }
+
+  &-top {
+
+    &-buynow {
+      text-decoration: underline;
+    }
+  }
+
+  & .bg-dark {
+    background-color: #151815!important;
+  }
+}

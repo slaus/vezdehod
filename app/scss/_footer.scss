@@ -1,0 +1,16 @@
+/*!
+ * Footer content
+ */
+
+.footer {
+  min-height: 270px;
+  background: $black;
+
+  &-navigation {
+    border-bottom: 3px solid $green;
+  }
+
+  &-menu a:hover, &-copyright a:hover {
+    color: $green !important;
+  }
+}
